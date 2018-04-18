@@ -317,57 +317,57 @@ email</source>
         <translation>&lt;a href=&quot;https://QtPass.org/&quot;&gt;QtPass&lt;/a&gt; 版本 </translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="27"/>
+        <location filename="../src/configdialog.cpp" line="28"/>
         <source>No Clipboard</source>
         <translation>不使用剪贴板</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="28"/>
+        <location filename="../src/configdialog.cpp" line="29"/>
         <source>Always copy to clipboard</source>
         <translation>总是复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="29"/>
+        <location filename="../src/configdialog.cpp" line="30"/>
         <source>On-demand copy to clipboard</source>
         <translation>手动复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="516"/>
+        <location filename="../src/configdialog.cpp" line="517"/>
         <source>No profile selected</source>
         <translation>未选择用户</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="517"/>
+        <location filename="../src/configdialog.cpp" line="518"/>
         <source>No profile selected to delete</source>
         <translation>未选择用户，无法删除</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="555"/>
+        <location filename="../src/configdialog.cpp" line="556"/>
         <source>GnuPG not found</source>
         <translation>无法找到 GnuPG</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="556"/>
+        <location filename="../src/configdialog.cpp" line="557"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;gpg&lt;/strong&gt; using your favorite package manager&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>GnuPG未安装。&lt;br&gt;可以用系统的软件包管理器来安装&lt;strong&gt;gpg&lt;/strong&gt;&lt;br&gt;或者从 GnuPG.org &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;下载&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="576"/>
+        <location filename="../src/configdialog.cpp" line="577"/>
         <source>Create password-store?</source>
         <translation>是否创建密码库？</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="577"/>
+        <location filename="../src/configdialog.cpp" line="578"/>
         <source>Would you like to create a password-store at %1?</source>
         <translation>是否在 %1 创建密码库？</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="595"/>
+        <location filename="../src/configdialog.cpp" line="596"/>
         <source>Password store not initialised</source>
         <translation>密码库未初始化</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="596"/>
+        <location filename="../src/configdialog.cpp" line="597"/>
         <source>The folder %1 doesn&apos;t seem to be a password store or is not yet initialised.</source>
         <translation>文件夹 %1 不是一个密码库或未初始化</translation>
     </message>
@@ -495,27 +495,27 @@ Expire-Date: 0
         <translation>高级选项请查看 &lt;a href=&quot;https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html&quot;&gt;GnuPG用户手册&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="133"/>
+        <location filename="../src/keygendialog.cpp" line="134"/>
         <source>Invalid name</source>
         <translation>不合法的姓名</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="134"/>
+        <location filename="../src/keygendialog.cpp" line="135"/>
         <source>Name must be at least 5 characters long.</source>
         <translation>姓名至少需要5个字符。</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="144"/>
+        <location filename="../src/keygendialog.cpp" line="145"/>
         <source>Invalid email</source>
         <translation>不合法的邮箱地址</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="145"/>
+        <location filename="../src/keygendialog.cpp" line="146"/>
         <source>The email address you typed is not a valid email address.</source>
         <translation>您输入的邮箱不是一个合法的邮箱地址。</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="160"/>
+        <location filename="../src/keygendialog.cpp" line="161"/>
         <source>This operation can take some minutes.&lt;br /&gt;We need to generate a lot of random bytes. It is a good idea to perform some other action (type on the keyboard, move the mouse, utilize the disks) during the prime generation; this gives the random number generator a better chance to gain enough entropy.</source>
         <translation>密码生成需要较长时间，请耐心等待。&lt;br /&gt;程序需要收集很多随机数，在此期间使用电脑进行一些其他操作（例如敲击键盘，移动鼠标，读写硬盘等）会加快此过程，并且使随机数生成器更随机化。</translation>
     </message>
@@ -536,14 +536,14 @@ Expire-Date: 0
     <message>
         <location filename="../src/mainwindow.ui" line="72"/>
         <location filename="../src/mainwindow.ui" line="75"/>
-        <location filename="../src/mainwindow.cpp" line="1283"/>
+        <location filename="../src/mainwindow.cpp" line="1289"/>
         <source>Edit</source>
         <translation>编辑</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="90"/>
         <location filename="../src/mainwindow.ui" line="93"/>
-        <location filename="../src/mainwindow.cpp" line="1295"/>
+        <location filename="../src/mainwindow.cpp" line="1301"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
@@ -574,7 +574,7 @@ Expire-Date: 0
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="179"/>
-        <location filename="../src/mainwindow.cpp" line="1276"/>
+        <location filename="../src/mainwindow.cpp" line="1282"/>
         <source>Users</source>
         <translation>用户</translation>
     </message>
@@ -616,54 +616,54 @@ p, li { white-space: pre-wrap; }
         <translation>qtpass</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="62"/>
+        <location filename="../src/mainwindow.cpp" line="68"/>
         <source>Welcome to QtPass %1</source>
         <translation>欢迎使用 QtPass %1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="566"/>
+        <location filename="../src/mainwindow.cpp" line="572"/>
         <source>Add Password</source>
         <translation>新密码</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="567"/>
+        <location filename="../src/mainwindow.cpp" line="573"/>
         <source>Add Folder</source>
         <translation>新文件夹</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="184"/>
+        <location filename="../src/mainwindow.cpp" line="190"/>
         <source>Failed to connect WebDAV:
 </source>
         <translation>无法连接 WebDAV：
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="197"/>
+        <location filename="../src/mainwindow.cpp" line="203"/>
         <source>QtPass WebDAV password</source>
         <translation>QtPass WebDAV 密码</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="198"/>
+        <location filename="../src/mainwindow.cpp" line="204"/>
         <source>Enter password to connect to WebDAV:</source>
         <translation>输入 WebDAV 密码以连接：</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="214"/>
+        <location filename="../src/mainwindow.cpp" line="220"/>
         <source>fusedav exited unexpectedly
 </source>
         <translation>fusedav 意外退出
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="218"/>
+        <location filename="../src/mainwindow.cpp" line="224"/>
         <source>Failed to start fusedav to connect WebDAV:
 </source>
         <translation>无法连接 WebDAV，fusedav无法启动：
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="453"/>
-        <location filename="../src/mainwindow.cpp" line="465"/>
+        <location filename="../src/mainwindow.cpp" line="459"/>
+        <location filename="../src/mainwindow.cpp" line="471"/>
         <source>Updating password-store</source>
         <translation>正在更新密码库...</translation>
     </message>
@@ -680,96 +680,96 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">密码已隐藏</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="597"/>
+        <location filename="../src/mainwindow.cpp" line="603"/>
         <source>Content hidden</source>
         <translation>内容已隐藏</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="601"/>
-        <location filename="../src/mainwindow.cpp" line="1434"/>
+        <location filename="../src/mainwindow.cpp" line="607"/>
+        <location filename="../src/mainwindow.cpp" line="1440"/>
         <source>Password</source>
         <translation>密码</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="698"/>
+        <location filename="../src/mainwindow.cpp" line="704"/>
         <source>Clipboard cleared</source>
         <translation>剪贴板已清除</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="700"/>
+        <location filename="../src/mainwindow.cpp" line="706"/>
         <source>Clipboard not cleared</source>
         <translation>剪贴板未清除</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="715"/>
+        <location filename="../src/mainwindow.cpp" line="721"/>
         <source>Password and Content hidden</source>
         <translation>密码和内容已隐藏</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="788"/>
+        <location filename="../src/mainwindow.cpp" line="794"/>
         <source>QProcess::FailedToStart</source>
         <translation>系统错误：启动失败 QProcess::FailedToStart</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="791"/>
+        <location filename="../src/mainwindow.cpp" line="797"/>
         <source>QProcess::Crashed</source>
         <translation>系统错误：程序崩溃 QProcess::Crashed</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="794"/>
+        <location filename="../src/mainwindow.cpp" line="800"/>
         <source>QProcess::Timedout</source>
         <translation>系统错误：响应超时 QProcess::Timedout</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="797"/>
+        <location filename="../src/mainwindow.cpp" line="803"/>
         <source>QProcess::ReadError</source>
         <translation>系统错误：读取错误 QProcess::ReadError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="800"/>
+        <location filename="../src/mainwindow.cpp" line="806"/>
         <source>QProcess::WriteError</source>
         <translation>系统错误：写入错误 QProcess::WriteError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="803"/>
+        <location filename="../src/mainwindow.cpp" line="809"/>
         <source>QProcess::UnknownError</source>
         <translation>系统错误：未知错误 QProcess::UnknownError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="824"/>
+        <location filename="../src/mainwindow.cpp" line="830"/>
         <source>Looking for: %1</source>
         <translation>搜索：%1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="915"/>
-        <location filename="../src/mainwindow.cpp" line="1333"/>
+        <location filename="../src/mainwindow.cpp" line="921"/>
+        <location filename="../src/mainwindow.cpp" line="1339"/>
         <source>New file</source>
         <translation>新密码</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="916"/>
+        <location filename="../src/mainwindow.cpp" line="922"/>
         <source>New password file: 
 (Will be placed in %1 )</source>
         <translation>新建密码：
 （将被放在 %1 )</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="944"/>
+        <location filename="../src/mainwindow.cpp" line="950"/>
         <source> and the whole content?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="954"/>
+        <location filename="../src/mainwindow.cpp" line="960"/>
         <source> and the whole content? &lt;br&gt;&lt;strong&gt;Attention: there are unexpected files in the given folder, check them before continue.&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="962"/>
+        <location filename="../src/mainwindow.cpp" line="968"/>
         <source>Are you sure you want to delete %1%2</source>
         <translation type="unfinished">确定删除 %1%2 ？ {1%2?}</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="961"/>
+        <location filename="../src/mainwindow.cpp" line="967"/>
         <source>Delete password?</source>
         <translation>删除密码？</translation>
     </message>
@@ -778,7 +778,7 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">确定删除 %1 ？</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="961"/>
+        <location filename="../src/mainwindow.cpp" line="967"/>
         <source>Delete folder?</source>
         <translation>删除文件夹？</translation>
     </message>
@@ -787,54 +787,54 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">确定删除 %1%2 ？</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="997"/>
+        <location filename="../src/mainwindow.cpp" line="1003"/>
         <source>Can not get key list</source>
         <translation>无法获取密钥列表</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="998"/>
+        <location filename="../src/mainwindow.cpp" line="1004"/>
         <source>Unable to get list of available gpg keys</source>
         <translation>无法获取可用的 GPG 密钥列表</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1031"/>
+        <location filename="../src/mainwindow.cpp" line="1037"/>
         <source>Key not found in keyring</source>
         <translation>所选密钥未找到</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1105"/>
+        <location filename="../src/mainwindow.cpp" line="1111"/>
         <source>Generating GPG key pair</source>
         <translation>正在生成 GPG 密钥对</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1147"/>
+        <location filename="../src/mainwindow.cpp" line="1153"/>
         <source>Profile changed to %1</source>
         <translation>用户已更改为 %1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1273"/>
+        <location filename="../src/mainwindow.cpp" line="1279"/>
         <source>Open folder with file manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1274"/>
+        <location filename="../src/mainwindow.cpp" line="1280"/>
         <source>Add folder</source>
         <translation>新文件夹</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1275"/>
+        <location filename="../src/mainwindow.cpp" line="1281"/>
         <source>Add password</source>
         <translation>新密码</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1334"/>
+        <location filename="../src/mainwindow.cpp" line="1340"/>
         <source>New Folder: 
 (Will be placed in %1 )</source>
         <translation>新建文件夹：
 （将被放在 %1 )</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1383"/>
+        <location filename="../src/mainwindow.cpp" line="1389"/>
         <source>Copied to clipboard</source>
         <translation>复制到剪贴板</translation>
     </message>
@@ -904,7 +904,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../main/main.cpp" line="78"/>
+        <location filename="../main/main.cpp" line="93"/>
         <source>LTR</source>
         <translation>从左到右</translation>
     </message>
@@ -912,12 +912,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>StoreModel</name>
     <message>
-        <location filename="../src/storemodel.cpp" line="240"/>
+        <location filename="../src/storemodel.cpp" line="243"/>
         <source>force overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/storemodel.cpp" line="241"/>
+        <location filename="../src/storemodel.cpp" line="244"/>
         <source>overwrite %1 with %2?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -925,32 +925,32 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>TrayIcon</name>
     <message>
-        <location filename="../src/trayicon.cpp" line="39"/>
+        <location filename="../src/trayicon.cpp" line="43"/>
         <source>&amp;Show</source>
         <translation>显示 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="41"/>
+        <location filename="../src/trayicon.cpp" line="45"/>
         <source>&amp;Hide</source>
         <translation>隐藏 (&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="44"/>
+        <location filename="../src/trayicon.cpp" line="48"/>
         <source>Mi&amp;nimize</source>
         <translation>最小化 (&amp;N)</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="47"/>
+        <location filename="../src/trayicon.cpp" line="51"/>
         <source>Ma&amp;ximize</source>
         <translation>最大化 (&amp;X)</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="50"/>
+        <location filename="../src/trayicon.cpp" line="54"/>
         <source>&amp;Restore</source>
         <translation>恢复 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="53"/>
+        <location filename="../src/trayicon.cpp" line="57"/>
         <source>&amp;Quit</source>
         <translation>退出 (&amp;Q)</translation>
     </message>

@@ -1,7 +1,7 @@
 !include(../qtpass.pri) { error("Couldn't find the qtpass.pri file!") }
 
 TEMPLATE   = app
-QT        += core gui
+QT        += core gui quick
 
 CONFIG += c++11
 LIBS = -L"$$OUT_PWD/../src/$(OBJECTS_DIR)" -lqtpass $$LIBS

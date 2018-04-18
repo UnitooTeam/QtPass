@@ -1,4 +1,10 @@
+#ifdef QML_INTERFACE
+#include <QQmlApplicationEngine>
+#include <QIcon>
+#else
 #include "mainwindow.h"
+#endif
+
 #if SINGLE_APP
 #include "singleapplication.h"
 #endif
@@ -39,7 +45,13 @@
  * @return
  */
 int main(int argc, char *argv[]) {
+
+#if QT_VERSION >= QT_VERSION_CHECK(5, 6, 0)
+  QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#else
   qputenv("QT_AUTO_SCREEN_SCALE_FACTOR", "1");
+#endif
+
   QString text = "";
   for (int i = 1; i < argc; ++i) {
     if (i > 1)
@@ -78,17 +90,25 @@ int main(int argc, char *argv[]) {
   // locale = "ar_MA";
   translator.load(QString(":localization/localization_%1.qm").arg(locale));
   app.installTranslator(&translator);
+  app.setWindowIcon(QIcon(":artwork/icon.png"));
   app.setLayoutDirection(QObject::tr("LTR") == "RTL" ? Qt::RightToLeft
                                                      : Qt::LeftToRight);
+
+#ifdef QML_INTERFACE
+  QQmlApplicationEngine engine;
+  engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+  if (engine.rootObjects().isEmpty())
+      return -1;
+#else
   MainWindow w;
 
-  QObject::connect(&app, SIGNAL(aboutToQuit()), &w, SLOT(clearClipboard()));
-
   app.setActiveWindow(&w);
-  app.setWindowIcon(QIcon(":artwork/icon.png"));
   w.setApp(&app);
   w.setText(text);
   w.show();
+
+  QObject::connect(&app, SIGNAL(aboutToQuit()), &w, SLOT(clearClipboard()));
+#endif
 
   return app.exec();
 }

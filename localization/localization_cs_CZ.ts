@@ -317,57 +317,57 @@ email</translation>
         <translation>&lt;a href=&quot;https://QtPass.org/&quot;&gt;QtPass&lt;/a&gt; verze </translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="27"/>
+        <location filename="../src/configdialog.cpp" line="28"/>
         <source>No Clipboard</source>
         <translation>Bez schránky</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="28"/>
+        <location filename="../src/configdialog.cpp" line="29"/>
         <source>Always copy to clipboard</source>
         <translation>Vždy zkopírovat do schránky</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="29"/>
+        <location filename="../src/configdialog.cpp" line="30"/>
         <source>On-demand copy to clipboard</source>
         <translation>Na vyžádání zkopírovat do schránky</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="516"/>
+        <location filename="../src/configdialog.cpp" line="517"/>
         <source>No profile selected</source>
         <translation>Nebyl vybrán profil</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="517"/>
+        <location filename="../src/configdialog.cpp" line="518"/>
         <source>No profile selected to delete</source>
         <translation>Nebyl vybrán profil ke smazání</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="555"/>
+        <location filename="../src/configdialog.cpp" line="556"/>
         <source>GnuPG not found</source>
         <translation>GnuPG nenalezeno</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="556"/>
+        <location filename="../src/configdialog.cpp" line="557"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;gpg&lt;/strong&gt; using your favorite package manager&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Nainstalujte prosím GnuPG na svůj systém.&lt;br&gt;Nainstalujte &lt;strong&gt;gpg&lt;/strong&gt; za použití upřednostňovaného správce balíků&lt;br&gt;nebo ho &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;stáhněte&lt;/a&gt; z GnuPG.org</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="576"/>
+        <location filename="../src/configdialog.cpp" line="577"/>
         <source>Create password-store?</source>
         <translation>Vytvořit úložiště hesel?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="577"/>
+        <location filename="../src/configdialog.cpp" line="578"/>
         <source>Would you like to create a password-store at %1?</source>
         <translation>Chcete vytvořit úložiště hesel v %1?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="595"/>
+        <location filename="../src/configdialog.cpp" line="596"/>
         <source>Password store not initialised</source>
         <translation>Úložiště hesel není vytvořeno</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="596"/>
+        <location filename="../src/configdialog.cpp" line="597"/>
         <source>The folder %1 doesn&apos;t seem to be a password store or is not yet initialised.</source>
         <translation>Adresář %1 nevypadá jako úložiště hesel, nebo ještě nebyl vytvořen.</translation>
     </message>
@@ -496,27 +496,27 @@ Expire-Date: 0
         <translation>Možnosti expertního nastavení můžete nalézt v &lt;a href=&quot;https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html&quot;&gt;GnuPG manuálu&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="133"/>
+        <location filename="../src/keygendialog.cpp" line="134"/>
         <source>Invalid name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="134"/>
+        <location filename="../src/keygendialog.cpp" line="135"/>
         <source>Name must be at least 5 characters long.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="144"/>
+        <location filename="../src/keygendialog.cpp" line="145"/>
         <source>Invalid email</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="145"/>
+        <location filename="../src/keygendialog.cpp" line="146"/>
         <source>The email address you typed is not a valid email address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/keygendialog.cpp" line="160"/>
+        <location filename="../src/keygendialog.cpp" line="161"/>
         <source>This operation can take some minutes.&lt;br /&gt;We need to generate a lot of random bytes. It is a good idea to perform some other action (type on the keyboard, move the mouse, utilize the disks) during the prime generation; this gives the random number generator a better chance to gain enough entropy.</source>
         <translation>Tato operace může zabrat několik minut.&lt;br /&gt;Je třeba vygenerovat množství náhodných dat. Pro urychlení můžete pomoci (psaním na klávesnici, pohybováním myší, zapisováním na disk) s jejich generováním; toto pomůže generátoru náhodných čísel zvýšit šanci na získání dostatečné entropie.</translation>
     </message>
@@ -537,14 +537,14 @@ Expire-Date: 0
     <message>
         <location filename="../src/mainwindow.ui" line="72"/>
         <location filename="../src/mainwindow.ui" line="75"/>
-        <location filename="../src/mainwindow.cpp" line="1283"/>
+        <location filename="../src/mainwindow.cpp" line="1289"/>
         <source>Edit</source>
         <translation>Upravit</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="90"/>
         <location filename="../src/mainwindow.ui" line="93"/>
-        <location filename="../src/mainwindow.cpp" line="1295"/>
+        <location filename="../src/mainwindow.cpp" line="1301"/>
         <source>Delete</source>
         <translation>Smazat</translation>
     </message>
@@ -575,7 +575,7 @@ Expire-Date: 0
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="179"/>
-        <location filename="../src/mainwindow.cpp" line="1276"/>
+        <location filename="../src/mainwindow.cpp" line="1282"/>
         <source>Users</source>
         <translation>Uživatelé</translation>
     </message>
@@ -617,54 +617,54 @@ p, li { white-space: pre-wrap; }
         <translation>qtpass</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="62"/>
+        <location filename="../src/mainwindow.cpp" line="68"/>
         <source>Welcome to QtPass %1</source>
         <translation>Vítejte v QtPass %1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="566"/>
+        <location filename="../src/mainwindow.cpp" line="572"/>
         <source>Add Password</source>
         <translation>Přidat heslo</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="567"/>
+        <location filename="../src/mainwindow.cpp" line="573"/>
         <source>Add Folder</source>
         <translation>Přidat adresář</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="184"/>
+        <location filename="../src/mainwindow.cpp" line="190"/>
         <source>Failed to connect WebDAV:
 </source>
         <translation>Selhalo připojení k WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="197"/>
+        <location filename="../src/mainwindow.cpp" line="203"/>
         <source>QtPass WebDAV password</source>
         <translation>QtPass WebDAV heslo</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="198"/>
+        <location filename="../src/mainwindow.cpp" line="204"/>
         <source>Enter password to connect to WebDAV:</source>
         <translation>Vložte heslo pro připojení k WebDAV:</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="214"/>
+        <location filename="../src/mainwindow.cpp" line="220"/>
         <source>fusedav exited unexpectedly
 </source>
         <translation>fusedav neočekávaně skončil
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="218"/>
+        <location filename="../src/mainwindow.cpp" line="224"/>
         <source>Failed to start fusedav to connect WebDAV:
 </source>
         <translation>Selhalo spuštění fusedav pro připojení k WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="453"/>
-        <location filename="../src/mainwindow.cpp" line="465"/>
+        <location filename="../src/mainwindow.cpp" line="459"/>
+        <location filename="../src/mainwindow.cpp" line="471"/>
         <source>Updating password-store</source>
         <translation>Aktualizace úložiště hesel</translation>
     </message>
@@ -681,96 +681,96 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">Skryté heslo</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="597"/>
+        <location filename="../src/mainwindow.cpp" line="603"/>
         <source>Content hidden</source>
         <translation>Skrytý obsah</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="601"/>
-        <location filename="../src/mainwindow.cpp" line="1434"/>
+        <location filename="../src/mainwindow.cpp" line="607"/>
+        <location filename="../src/mainwindow.cpp" line="1440"/>
         <source>Password</source>
         <translation type="unfinished">Heslo</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="698"/>
+        <location filename="../src/mainwindow.cpp" line="704"/>
         <source>Clipboard cleared</source>
         <translation>Schránka vymazána</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="700"/>
+        <location filename="../src/mainwindow.cpp" line="706"/>
         <source>Clipboard not cleared</source>
         <translation>Schránka nevymazána</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="715"/>
+        <location filename="../src/mainwindow.cpp" line="721"/>
         <source>Password and Content hidden</source>
         <translation>Skryté heslo i obsah</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="788"/>
+        <location filename="../src/mainwindow.cpp" line="794"/>
         <source>QProcess::FailedToStart</source>
         <translation>QProcess::FailedToStart</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="791"/>
+        <location filename="../src/mainwindow.cpp" line="797"/>
         <source>QProcess::Crashed</source>
         <translation>QProcess::Crashed</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="794"/>
+        <location filename="../src/mainwindow.cpp" line="800"/>
         <source>QProcess::Timedout</source>
         <translation>QProcess::Timedout</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="797"/>
+        <location filename="../src/mainwindow.cpp" line="803"/>
         <source>QProcess::ReadError</source>
         <translation>QProcess::ReadError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="800"/>
+        <location filename="../src/mainwindow.cpp" line="806"/>
         <source>QProcess::WriteError</source>
         <translation>QProcess::WriteError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="803"/>
+        <location filename="../src/mainwindow.cpp" line="809"/>
         <source>QProcess::UnknownError</source>
         <translation>QProcess::UnknownError</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="824"/>
+        <location filename="../src/mainwindow.cpp" line="830"/>
         <source>Looking for: %1</source>
         <translation>Vyhledávání: %1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="915"/>
-        <location filename="../src/mainwindow.cpp" line="1333"/>
+        <location filename="../src/mainwindow.cpp" line="921"/>
+        <location filename="../src/mainwindow.cpp" line="1339"/>
         <source>New file</source>
         <translation>Nový soubor</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="916"/>
+        <location filename="../src/mainwindow.cpp" line="922"/>
         <source>New password file: 
 (Will be placed in %1 )</source>
         <translation>Nový soubor s heslem: 
 (Bude uložen do %1 )</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="944"/>
+        <location filename="../src/mainwindow.cpp" line="950"/>
         <source> and the whole content?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="954"/>
+        <location filename="../src/mainwindow.cpp" line="960"/>
         <source> and the whole content? &lt;br&gt;&lt;strong&gt;Attention: there are unexpected files in the given folder, check them before continue.&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="962"/>
+        <location filename="../src/mainwindow.cpp" line="968"/>
         <source>Are you sure you want to delete %1%2</source>
         <translation type="unfinished">Opravdu chcete smazat %1? {1%2??} {1%2?}</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="961"/>
+        <location filename="../src/mainwindow.cpp" line="967"/>
         <source>Delete password?</source>
         <translation>Smazat heslo?</translation>
     </message>
@@ -779,7 +779,7 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">Opravdu chcete smazat %1?</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="961"/>
+        <location filename="../src/mainwindow.cpp" line="967"/>
         <source>Delete folder?</source>
         <translation>Smazat adresář?</translation>
     </message>
@@ -788,54 +788,54 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Opravdu chcete smazat %1? {1%2??}</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="997"/>
+        <location filename="../src/mainwindow.cpp" line="1003"/>
         <source>Can not get key list</source>
         <translation>Nelze získat seznam klíčů</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="998"/>
+        <location filename="../src/mainwindow.cpp" line="1004"/>
         <source>Unable to get list of available gpg keys</source>
         <translation>Nelze získat seznam dostupných gpg klíčů</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1031"/>
+        <location filename="../src/mainwindow.cpp" line="1037"/>
         <source>Key not found in keyring</source>
         <translation>Klíč nebyl v klíčence nalezen</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1105"/>
+        <location filename="../src/mainwindow.cpp" line="1111"/>
         <source>Generating GPG key pair</source>
         <translation>Generování páru GPG klíčů</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1147"/>
+        <location filename="../src/mainwindow.cpp" line="1153"/>
         <source>Profile changed to %1</source>
         <translation>Profil změněn na %1</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1273"/>
+        <location filename="../src/mainwindow.cpp" line="1279"/>
         <source>Open folder with file manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1274"/>
+        <location filename="../src/mainwindow.cpp" line="1280"/>
         <source>Add folder</source>
         <translation>Přidat adresář</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1275"/>
+        <location filename="../src/mainwindow.cpp" line="1281"/>
         <source>Add password</source>
         <translation>Přidat heslo</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1334"/>
+        <location filename="../src/mainwindow.cpp" line="1340"/>
         <source>New Folder: 
 (Will be placed in %1 )</source>
         <translation>Nový adresář: 
 (Bude umístěn do %1 )</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="1383"/>
+        <location filename="../src/mainwindow.cpp" line="1389"/>
         <source>Copied to clipboard</source>
         <translation>zkopírovat do schránky</translation>
     </message>
@@ -905,7 +905,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../main/main.cpp" line="78"/>
+        <location filename="../main/main.cpp" line="93"/>
         <source>LTR</source>
         <translation>LTR</translation>
     </message>
@@ -913,12 +913,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>StoreModel</name>
     <message>
-        <location filename="../src/storemodel.cpp" line="240"/>
+        <location filename="../src/storemodel.cpp" line="243"/>
         <source>force overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/storemodel.cpp" line="241"/>
+        <location filename="../src/storemodel.cpp" line="244"/>
         <source>overwrite %1 with %2?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -926,32 +926,32 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>TrayIcon</name>
     <message>
-        <location filename="../src/trayicon.cpp" line="39"/>
+        <location filename="../src/trayicon.cpp" line="43"/>
         <source>&amp;Show</source>
         <translation>Z&amp;obrazit</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="41"/>
+        <location filename="../src/trayicon.cpp" line="45"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skrýt</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="44"/>
+        <location filename="../src/trayicon.cpp" line="48"/>
         <source>Mi&amp;nimize</source>
         <translation>Mi&amp;nimalizovat</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="47"/>
+        <location filename="../src/trayicon.cpp" line="51"/>
         <source>Ma&amp;ximize</source>
         <translation>Ma&amp;ximalizovat</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="50"/>
+        <location filename="../src/trayicon.cpp" line="54"/>
         <source>&amp;Restore</source>
         <translation>Obno&amp;vit</translation>
     </message>
     <message>
-        <location filename="../src/trayicon.cpp" line="53"/>
+        <location filename="../src/trayicon.cpp" line="57"/>
         <source>&amp;Quit</source>
         <translation>Ukonči&amp;t</translation>
     </message>
