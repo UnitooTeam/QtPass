@@ -22,7 +22,17 @@
         <file>localization/localization_en_US.qm</file>
         <file>localization/localization_pt_PT.qm</file>
         <file>localization/localization_it_IT.qm</file>
-        <file>qml/main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/UiSettings.qml</file>
+        <file>main.qml</file>
+        <file>icons/material/index.theme</file>
+        <file>icons/material/scalable/add_file.svg</file>
+        <file>icons/material/scalable/add_folder.svg</file>
+        <file>icons/material/scalable/delete.svg</file>
+        <file>icons/material/scalable/edit.svg</file>
+        <file>icons/material/scalable/settings.svg</file>
+        <file>icons/material/scalable/users.svg</file>
+        <file>icons/material/scalable/logo.svg</file>
     </qresource>
     <qresource prefix="/icons">
         <file alias="document-new.svg">icons/document-new.svg</file>

@@ -1,7 +1,7 @@
 !include(../qtpass.pri) { error("Couldn't find the qtpass.pri file!") }
 
 TEMPLATE   = app
-QT        += core gui quick
+QT        += core gui quick quickcontrols2
 
 CONFIG += c++11
 LIBS = -L"$$OUT_PWD/../src/$(OBJECTS_DIR)" -lqtpass $$LIBS
@@ -15,7 +15,9 @@ macx {
 
 SOURCES   += main.cpp
 
-RESOURCES   += ../resources.qrc
+RESOURCES   += \
+    ../resources.qrc \
+    ../icons/material/index.theme
 
 isEmpty(PREFIX) {
  PREFIX = $$(PREFIX)

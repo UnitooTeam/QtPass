@@ -1,0 +1,11 @@
+[Icon Theme]
+Name=material
+Comment=Material Icons
+
+Directories=32x32,32x32@2
+
+[scalable]
+Size=48
+Type=Scalable
+MinSize=24
+MaxSize=96

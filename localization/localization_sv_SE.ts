@@ -881,7 +881,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../main/main.cpp" line="93"/>
+        <location filename="../main/main.cpp" line="94"/>
         <source>LTR</source>
         <translation></translation>
     </message>
@@ -970,6 +970,20 @@ Röd färg betyder att nyckeln är ogiltig. Du kan inte använda någon av dessa
         <location filename="../src/usersdialog.cpp" line="80"/>
         <source>expires</source>
         <translation>utgår</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../main.qml" line="12"/>
+        <source>QtPass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="49"/>
+        <location filename="../main.qml" line="87"/>
+        <source>text</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

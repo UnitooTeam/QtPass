@@ -7,7 +7,8 @@ tests.depends = main
 
 OTHER_FILES += LICENSE \
                README.md \
-               qtpass.1
+               qtpass.1 \
+               qml/qmldir
 
 RESOURCES += resources.qrc
 

@@ -95,6 +95,10 @@ int main(int argc, char *argv[]) {
                                                      : Qt::LeftToRight);
 
 #ifdef QML_INTERFACE
+  QIcon::setThemeName("material");
+
+  qmlRegisterSingletonType( QUrl("qrc:/qml/UiSettings.qml"), "IJHack.QtPass.UiSettings", 1, 0, "UiSettings" );
+
   QQmlApplicationEngine engine;
   engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
   if (engine.rootObjects().isEmpty())
