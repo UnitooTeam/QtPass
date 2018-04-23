@@ -9,7 +9,7 @@ ApplicationWindow {
     width: 800
     height: 600
 
-    title: qsTr("QtPass")
+    title: "QtPass"
 
     Shortcut {
         sequence: StandardKey.Quit
@@ -31,7 +31,7 @@ ApplicationWindow {
             spacing: 0
 
             ToolButton {
-                text: qsTr("Add file")
+                text: qsTr("Add password")
                 icon.name: "add_file"
             }
             ToolButton {

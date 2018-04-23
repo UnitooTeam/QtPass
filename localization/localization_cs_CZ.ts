@@ -1003,8 +1003,27 @@ Modře označené záznamy poskytují tajný klíč, vyberte jeden z nich, kter�
         <translation type="unfinished">QtPass</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="49"/>
-        <location filename="../main.qml" line="87"/>
+        <location filename="../main.qml" line="34"/>
+        <source>Add file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="38"/>
+        <source>Add folder</source>
+        <translation type="unfinished">Přidat adresář</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="46"/>
+        <source>Users</source>
+        <translation type="unfinished">Uživatelé</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="54"/>
+        <source>Settings</source>
+        <translation type="unfinished">Nastavení</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="133"/>
         <source>text</source>
         <translation type="unfinished"></translation>
     </message>
