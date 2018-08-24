@@ -129,12 +129,6 @@ void QtPass::setMainWindow(MainWindow *mW) {
 #endif
     QtPassSettings::getPass()->GitInit();
   });
-
-  connect(
-      m_mainWindow, &MainWindow::generateGPGKeyPair, [=](const QString &batch) {
-        QtPassSettings::getPass()->GenerateGPGKeys(batch);
-        m_mainWindow->showStatusMessage(tr("Generating GPG key pair"), 60000);
-      });
 }
 
 void QtPass::connectPassSignalHandlers(Pass *pass) {

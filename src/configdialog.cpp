@@ -6,10 +6,12 @@
 #include <QClipboard>
 #include <QDir>
 #include <QFileDialog>
+#include <QFuture>
 #include <QMessageBox>
 #include <QPushButton>
 #include <QSystemTrayIcon>
 #include <QTableWidgetItem>
+#include <QtConcurrent/QtConcurrent>
 #ifdef Q_OS_WIN
 #include <windows.h>
 #endif
@@ -412,8 +414,12 @@ void ConfigDialog::on_checkBoxAutoclear_clicked() {
  * @param batch
  * @param dialog
  */
-void ConfigDialog::genKey(QString batch, QDialog *dialog) {
-  mainWindow->generateKeyPair(batch, dialog);
+void ConfigDialog::genKey(QString batch) {
+  std::function<void()> _x = [&batch]() {
+    QtPassSettings::getPass()->GenerateGPGKeys(batch);
+  };
+
+  QFuture<void> future = QtConcurrent::run(_x);
 }
 
 /**

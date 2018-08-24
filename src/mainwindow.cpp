@@ -66,10 +66,8 @@ MainWindow::MainWindow(const QString &searchText, QWidget *parent)
 
   proxyModel.setSourceModel(&model);
   proxyModel.setModelAndStore(&model, passStore);
-  // proxyModel.sort(0, Qt::AscendingOrder);
   selectionModel.reset(new QItemSelectionModel(&proxyModel));
   model.fetchMore(model.setRootPath(passStore));
-  // model.sort(0, Qt::AscendingOrder);
 
   ui->treeView->setModel(&proxyModel);
   ui->treeView->setRootIndex(
@@ -711,16 +709,6 @@ void MainWindow::messageAvailable(QString message) {
   }
   show();
   raise();
-}
-
-/**
- * @brief MainWindow::generateKeyPair internal gpg keypair generator . .
- * @param batch
- * @param keygenWindow
- */
-void MainWindow::generateKeyPair(QString batch, QDialog *keygenWindow) {
-  keygen = keygenWindow;
-  emit generateGPGKeyPair(batch);
 }
 
 /**

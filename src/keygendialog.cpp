@@ -162,7 +162,7 @@ void KeygenDialog::done(int r) {
     this->layout()->addWidget(pi);
 
     this->show();
-    dialog->genKey(ui->plainTextEdit->toPlainText(), this);
+    dialog->genKey(ui->plainTextEdit->toPlainText());
   } else { // cancel, close or exc was pressed
     QDialog::done(r);
     return;

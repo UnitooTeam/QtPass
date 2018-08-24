@@ -45,7 +45,6 @@ public:
   ~MainWindow();
 
   void restoreWindow();
-  void generateKeyPair(QString, QDialog *);
   void userDialog(QString = "");
   void config();
 
@@ -69,7 +68,6 @@ signals:
   void uiEnabled(bool state);
   void passShowHandlerFinished(QString output);
   void passGitInitNeeded();
-  void generateGPGKeyPair(QString batch);
 
 public slots:
   void deselect();
